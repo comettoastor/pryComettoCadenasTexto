@@ -219,7 +219,7 @@
             this.Controls.Add(this.lblTextoA);
             this.Controls.Add(this.txtTextoA);
             this.Name = "frmPrincipal";
-            this.Text = "Pruebas con Texto";
+            this.Text = "Pruebas con Cadenas";
             this.ResumeLayout(false);
             this.PerformLayout();
 
