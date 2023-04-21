@@ -12,7 +12,18 @@ namespace pryComettoLP2SP2
 {
     public partial class frmPrincipal : Form
     {
-        string varTextoA;
+        string varTextoA = "";
+        public void BuscarCaracter()
+        {
+            if (txtBuscar.Text != "" && varTextoA.IndexOf(txtBuscar.Text) > -1)
+            {
+                txtBuscar.BackColor = Color.Green;
+            }
+            else
+            {
+                txtBuscar.BackColor = Color.Red;
+            }
+        }
         public frmPrincipal()
         {
             InitializeComponent();
@@ -21,6 +32,7 @@ namespace pryComettoLP2SP2
         {
             varTextoA = txtTextoA.Text;
             lblTextoA.Text = varTextoA.Length.ToString();
+            BuscarCaracter();
         }
 
         private void txtTextoB_TextChanged(object sender, EventArgs e)
@@ -32,25 +44,56 @@ namespace pryComettoLP2SP2
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
-            if (varTextoA.IndexOf(txtBuscar.Text) > -1 && txtBuscar.Text != "")
-            {
-                txtBuscar.BackColor = Color.Green;
-            }
-            else
-            {
-                txtBuscar.BackColor = Color.Red;
-            }
+            BuscarCaracter();
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            txtBuscar.Visible = true;
+            if (txtBuscar.Visible == false)
+            {
+                txtBuscar.Visible = true;
+            }
+            else
+            {
+                txtBuscar.Visible = false;
+            }
         }
 
         private void dtpFecha_ValueChanged(object sender, EventArgs e)
         {
             lblFecha.Text = dtpFecha.Value.ToString("d");
             lblHora.Text = dtpFecha.Value.ToString("t");
+        }
+
+        private void btnComparar_Click(object sender, EventArgs e)
+        {
+            int comparador = string.Compare(txtTextoB.Text,txtTextoC.Text);
+            MessageBox.Show(comparador.ToString());
+            if (comparador == 0)
+            {
+                MessageBox.Show("Los Textos son IGUALES","Iguales",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+            else
+            {
+                if (comparador > 0)
+                {
+                    MessageBox.Show("El Texto B es MÁS GRANDE que el Texto C", "Diferencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("El Texto C es MÁS GRANDE que el Texto B", "Diferencia", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+        }
+
+        private void btnReemplazar_Click(object sender, EventArgs e)
+        {
+            if (txtTextoD.Text != "")
+            {
+                string varTextoD;
+                varTextoD = txtTextoD.Text.Replace("h","H");
+                txtTextoE.Text = varTextoD;
+            }
         }
     }
 }
