@@ -45,7 +45,7 @@
             this.txtTextoD = new System.Windows.Forms.TextBox();
             this.lblTextoD = new System.Windows.Forms.Label();
             this.txtTextoE = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblTextoE = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtTextoA
@@ -188,14 +188,14 @@
             this.txtTextoE.Size = new System.Drawing.Size(100, 20);
             this.txtTextoE.TabIndex = 7;
             // 
-            // label3
+            // lblTextoE
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(386, 106);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Texto E";
+            this.lblTextoE.AutoSize = true;
+            this.lblTextoE.Location = new System.Drawing.Point(386, 106);
+            this.lblTextoE.Name = "lblTextoE";
+            this.lblTextoE.Size = new System.Drawing.Size(44, 13);
+            this.lblTextoE.TabIndex = 21;
+            this.lblTextoE.Text = "Texto E";
             // 
             // frmPrincipal
             // 
@@ -203,7 +203,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 219);
             this.Controls.Add(this.txtTextoE);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblTextoE);
             this.Controls.Add(this.txtTextoD);
             this.Controls.Add(this.lblTextoD);
             this.Controls.Add(this.txtTextoC);
@@ -246,7 +246,7 @@
         private System.Windows.Forms.TextBox txtTextoD;
         private System.Windows.Forms.Label lblTextoD;
         private System.Windows.Forms.TextBox txtTextoE;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblTextoE;
     }
 }
 
