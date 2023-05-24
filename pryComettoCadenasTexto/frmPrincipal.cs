@@ -68,7 +68,6 @@ namespace pryComettoLP2SP2
         private void btnComparar_Click(object sender, EventArgs e)
         {
             int comparador = string.Compare(txtTextoB.Text,txtTextoC.Text);
-            MessageBox.Show(comparador.ToString());
             if (comparador == 0)
             {
                 MessageBox.Show("Los Textos son IGUALES","Iguales",MessageBoxButtons.OK,MessageBoxIcon.Information);

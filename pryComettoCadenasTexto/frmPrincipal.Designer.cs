@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             this.txtTextoA = new System.Windows.Forms.TextBox();
             this.lblTextoA = new System.Windows.Forms.Label();
             this.btnComparar = new System.Windows.Forms.Button();
@@ -69,7 +70,7 @@
             this.btnComparar.Location = new System.Drawing.Point(199, 72);
             this.btnComparar.Name = "btnComparar";
             this.btnComparar.Size = new System.Drawing.Size(75, 23);
-            this.btnComparar.TabIndex = 3;
+            this.btnComparar.TabIndex = 5;
             this.btnComparar.Text = "Comparar";
             this.btnComparar.UseVisualStyleBackColor = true;
             this.btnComparar.Click += new System.EventHandler(this.btnComparar_Click);
@@ -97,7 +98,7 @@
             this.txtTextoB.Location = new System.Drawing.Point(93, 74);
             this.txtTextoB.Name = "txtTextoB";
             this.txtTextoB.Size = new System.Drawing.Size(100, 20);
-            this.txtTextoB.TabIndex = 9;
+            this.txtTextoB.TabIndex = 3;
             this.txtTextoB.TextChanged += new System.EventHandler(this.txtTextoB_TextChanged);
             // 
             // btnBuscar
@@ -105,7 +106,7 @@
             this.btnBuscar.Location = new System.Drawing.Point(199, 43);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
-            this.btnBuscar.TabIndex = 11;
+            this.btnBuscar.TabIndex = 1;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -116,7 +117,7 @@
             this.txtBuscar.MaxLength = 1;
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(27, 20);
-            this.txtBuscar.TabIndex = 12;
+            this.txtBuscar.TabIndex = 2;
             this.txtBuscar.Visible = false;
             this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
@@ -126,7 +127,7 @@
             this.dtpFecha.Location = new System.Drawing.Point(93, 146);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(100, 20);
-            this.dtpFecha.TabIndex = 13;
+            this.dtpFecha.TabIndex = 9;
             this.dtpFecha.ValueChanged += new System.EventHandler(this.dtpFecha_ValueChanged);
             // 
             // lblFecha
@@ -152,7 +153,7 @@
             this.btnReemplazar.Location = new System.Drawing.Point(199, 101);
             this.btnReemplazar.Name = "btnReemplazar";
             this.btnReemplazar.Size = new System.Drawing.Size(75, 23);
-            this.btnReemplazar.TabIndex = 16;
+            this.btnReemplazar.TabIndex = 8;
             this.btnReemplazar.Text = "Reemplazar";
             this.btnReemplazar.UseVisualStyleBackColor = true;
             this.btnReemplazar.Click += new System.EventHandler(this.btnReemplazar_Click);
@@ -162,14 +163,14 @@
             this.txtTextoC.Location = new System.Drawing.Point(280, 74);
             this.txtTextoC.Name = "txtTextoC";
             this.txtTextoC.Size = new System.Drawing.Size(100, 20);
-            this.txtTextoC.TabIndex = 18;
+            this.txtTextoC.TabIndex = 4;
             // 
             // txtTextoD
             // 
             this.txtTextoD.Location = new System.Drawing.Point(93, 103);
             this.txtTextoD.Name = "txtTextoD";
             this.txtTextoD.Size = new System.Drawing.Size(100, 20);
-            this.txtTextoD.TabIndex = 20;
+            this.txtTextoD.TabIndex = 6;
             // 
             // lblTextoD
             // 
@@ -185,7 +186,7 @@
             this.txtTextoE.Location = new System.Drawing.Point(280, 103);
             this.txtTextoE.Name = "txtTextoE";
             this.txtTextoE.Size = new System.Drawing.Size(100, 20);
-            this.txtTextoE.TabIndex = 22;
+            this.txtTextoE.TabIndex = 7;
             // 
             // label3
             // 
@@ -218,7 +219,9 @@
             this.Controls.Add(this.btnComparar);
             this.Controls.Add(this.lblTextoA);
             this.Controls.Add(this.txtTextoA);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pruebas con Cadenas";
             this.ResumeLayout(false);
             this.PerformLayout();
