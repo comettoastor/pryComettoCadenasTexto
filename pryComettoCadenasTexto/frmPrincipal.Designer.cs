@@ -46,6 +46,10 @@
             this.lblTextoD = new System.Windows.Forms.Label();
             this.txtTextoE = new System.Windows.Forms.TextBox();
             this.lblTextoE = new System.Windows.Forms.Label();
+            this.txtIndice = new System.Windows.Forms.TextBox();
+            this.btnIndice = new System.Windows.Forms.Button();
+            this.lblTextoF = new System.Windows.Forms.Label();
+            this.txtTextoF = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtTextoA
@@ -124,7 +128,7 @@
             // dtpFecha
             // 
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(93, 146);
+            this.dtpFecha.Location = new System.Drawing.Point(93, 177);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(100, 20);
             this.dtpFecha.TabIndex = 9;
@@ -133,7 +137,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(90, 170);
+            this.lblFecha.Location = new System.Drawing.Point(90, 201);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(37, 13);
             this.lblFecha.TabIndex = 14;
@@ -142,7 +146,7 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Location = new System.Drawing.Point(90, 184);
+            this.lblHora.Location = new System.Drawing.Point(90, 215);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(30, 13);
             this.lblHora.TabIndex = 15;
@@ -164,6 +168,7 @@
             this.txtTextoC.Name = "txtTextoC";
             this.txtTextoC.Size = new System.Drawing.Size(100, 20);
             this.txtTextoC.TabIndex = 4;
+            this.txtTextoC.TextChanged += new System.EventHandler(this.txtTextoC_TextChanged);
             // 
             // txtTextoD
             // 
@@ -171,6 +176,7 @@
             this.txtTextoD.Name = "txtTextoD";
             this.txtTextoD.Size = new System.Drawing.Size(100, 20);
             this.txtTextoD.TabIndex = 6;
+            this.txtTextoD.TextChanged += new System.EventHandler(this.txtTextoD_TextChanged);
             // 
             // lblTextoD
             // 
@@ -187,6 +193,7 @@
             this.txtTextoE.Name = "txtTextoE";
             this.txtTextoE.Size = new System.Drawing.Size(100, 20);
             this.txtTextoE.TabIndex = 7;
+            this.txtTextoE.TextChanged += new System.EventHandler(this.txtTextoE_TextChanged);
             // 
             // lblTextoE
             // 
@@ -197,11 +204,50 @@
             this.lblTextoE.TabIndex = 21;
             this.lblTextoE.Text = "Texto E";
             // 
+            // txtIndice
+            // 
+            this.txtIndice.Location = new System.Drawing.Point(280, 132);
+            this.txtIndice.MaxLength = 1;
+            this.txtIndice.Name = "txtIndice";
+            this.txtIndice.Size = new System.Drawing.Size(27, 20);
+            this.txtIndice.TabIndex = 25;
+            // 
+            // btnIndice
+            // 
+            this.btnIndice.Location = new System.Drawing.Point(199, 130);
+            this.btnIndice.Name = "btnIndice";
+            this.btnIndice.Size = new System.Drawing.Size(75, 23);
+            this.btnIndice.TabIndex = 23;
+            this.btnIndice.Text = "Indice";
+            this.btnIndice.UseVisualStyleBackColor = true;
+            this.btnIndice.Click += new System.EventHandler(this.btnIndice_Click);
+            // 
+            // lblTextoF
+            // 
+            this.lblTextoF.AutoSize = true;
+            this.lblTextoF.Location = new System.Drawing.Point(43, 135);
+            this.lblTextoF.Name = "lblTextoF";
+            this.lblTextoF.Size = new System.Drawing.Size(43, 13);
+            this.lblTextoF.TabIndex = 24;
+            this.lblTextoF.Text = "Texto F";
+            // 
+            // txtTextoF
+            // 
+            this.txtTextoF.Location = new System.Drawing.Point(93, 132);
+            this.txtTextoF.Name = "txtTextoF";
+            this.txtTextoF.Size = new System.Drawing.Size(100, 20);
+            this.txtTextoF.TabIndex = 22;
+            this.txtTextoF.TextChanged += new System.EventHandler(this.txtTextoF_TextChanged);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 219);
+            this.ClientSize = new System.Drawing.Size(468, 243);
+            this.Controls.Add(this.txtIndice);
+            this.Controls.Add(this.btnIndice);
+            this.Controls.Add(this.lblTextoF);
+            this.Controls.Add(this.txtTextoF);
             this.Controls.Add(this.txtTextoE);
             this.Controls.Add(this.lblTextoE);
             this.Controls.Add(this.txtTextoD);
@@ -247,6 +293,10 @@
         private System.Windows.Forms.Label lblTextoD;
         private System.Windows.Forms.TextBox txtTextoE;
         private System.Windows.Forms.Label lblTextoE;
+        private System.Windows.Forms.TextBox txtIndice;
+        private System.Windows.Forms.Button btnIndice;
+        private System.Windows.Forms.Label lblTextoF;
+        private System.Windows.Forms.TextBox txtTextoF;
     }
 }
 

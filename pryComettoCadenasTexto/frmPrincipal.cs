@@ -94,5 +94,41 @@ namespace pryComettoLP2SP2
                 txtTextoE.Text = varTextoD;
             }
         }
+
+        private void btnIndice_Click(object sender, EventArgs e)
+        {
+            string varTextoF;
+            varTextoF = txtTextoF.Text;
+            int indice = varTextoF.IndexOf(txtIndice.Text);
+            MessageBox.Show("El índice de la letra " + txtIndice.Text + " en el texto " + varTextoF + " es: "  + indice.ToString(), "Índice", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtTextoC_TextChanged(object sender, EventArgs e)
+        {
+            string varTextoC;
+            varTextoC = txtTextoC.Text;
+            lblTextoC.Text = varTextoC.Length.ToString();
+        }
+
+        private void txtTextoD_TextChanged(object sender, EventArgs e)
+        {
+            string varTextoD;
+            varTextoD = txtTextoD.Text;
+            lblTextoD.Text = varTextoD.Length.ToString();
+        }
+
+        private void txtTextoE_TextChanged(object sender, EventArgs e)
+        {
+            string varTextoE;
+            varTextoE = txtTextoE.Text;
+            lblTextoE.Text = varTextoE.Length.ToString();
+        }
+
+        private void txtTextoF_TextChanged(object sender, EventArgs e)
+        {
+            string varTextoF;
+            varTextoF = txtTextoF.Text;
+            lblTextoF.Text = varTextoF.Length.ToString();
+        }
     }
 }
