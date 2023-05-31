@@ -131,7 +131,7 @@
             this.dtpFecha.Location = new System.Drawing.Point(76, 159);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(100, 20);
-            this.dtpFecha.TabIndex = 9;
+            this.dtpFecha.TabIndex = 12;
             this.dtpFecha.ValueChanged += new System.EventHandler(this.dtpFecha_ValueChanged);
             // 
             // lblFecha
@@ -140,7 +140,7 @@
             this.lblFecha.Location = new System.Drawing.Point(73, 183);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(37, 13);
-            this.lblFecha.TabIndex = 14;
+            this.lblFecha.TabIndex = 13;
             this.lblFecha.Text = "Fecha";
             // 
             // lblHora
@@ -149,7 +149,7 @@
             this.lblHora.Location = new System.Drawing.Point(73, 197);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(30, 13);
-            this.lblHora.TabIndex = 15;
+            this.lblHora.TabIndex = 14;
             this.lblHora.Text = "Hora";
             // 
             // btnReemplazar
@@ -210,14 +210,14 @@
             this.txtIndice.MaxLength = 1;
             this.txtIndice.Name = "txtIndice";
             this.txtIndice.Size = new System.Drawing.Size(27, 20);
-            this.txtIndice.TabIndex = 25;
+            this.txtIndice.TabIndex = 10;
             // 
             // btnIndice
             // 
             this.btnIndice.Location = new System.Drawing.Point(182, 112);
             this.btnIndice.Name = "btnIndice";
             this.btnIndice.Size = new System.Drawing.Size(75, 23);
-            this.btnIndice.TabIndex = 23;
+            this.btnIndice.TabIndex = 11;
             this.btnIndice.Text = "Indice";
             this.btnIndice.UseVisualStyleBackColor = true;
             this.btnIndice.Click += new System.EventHandler(this.btnIndice_Click);
@@ -236,7 +236,7 @@
             this.txtTextoF.Location = new System.Drawing.Point(76, 114);
             this.txtTextoF.Name = "txtTextoF";
             this.txtTextoF.Size = new System.Drawing.Size(100, 20);
-            this.txtTextoF.TabIndex = 22;
+            this.txtTextoF.TabIndex = 9;
             this.txtTextoF.TextChanged += new System.EventHandler(this.txtTextoF_TextChanged);
             // 
             // frmPrincipal
