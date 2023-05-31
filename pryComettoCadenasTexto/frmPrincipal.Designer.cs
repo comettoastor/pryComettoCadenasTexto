@@ -54,7 +54,7 @@
             // 
             // txtTextoA
             // 
-            this.txtTextoA.Location = new System.Drawing.Point(93, 45);
+            this.txtTextoA.Location = new System.Drawing.Point(76, 27);
             this.txtTextoA.Name = "txtTextoA";
             this.txtTextoA.Size = new System.Drawing.Size(100, 20);
             this.txtTextoA.TabIndex = 0;
@@ -63,7 +63,7 @@
             // lblTextoA
             // 
             this.lblTextoA.AutoSize = true;
-            this.lblTextoA.Location = new System.Drawing.Point(43, 48);
+            this.lblTextoA.Location = new System.Drawing.Point(26, 30);
             this.lblTextoA.Name = "lblTextoA";
             this.lblTextoA.Size = new System.Drawing.Size(44, 13);
             this.lblTextoA.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             // btnComparar
             // 
-            this.btnComparar.Location = new System.Drawing.Point(199, 72);
+            this.btnComparar.Location = new System.Drawing.Point(182, 54);
             this.btnComparar.Name = "btnComparar";
             this.btnComparar.Size = new System.Drawing.Size(75, 23);
             this.btnComparar.TabIndex = 5;
@@ -82,7 +82,7 @@
             // lblTextoB
             // 
             this.lblTextoB.AutoSize = true;
-            this.lblTextoB.Location = new System.Drawing.Point(43, 77);
+            this.lblTextoB.Location = new System.Drawing.Point(26, 59);
             this.lblTextoB.Name = "lblTextoB";
             this.lblTextoB.Size = new System.Drawing.Size(44, 13);
             this.lblTextoB.TabIndex = 6;
@@ -91,7 +91,7 @@
             // lblTextoC
             // 
             this.lblTextoC.AutoSize = true;
-            this.lblTextoC.Location = new System.Drawing.Point(386, 77);
+            this.lblTextoC.Location = new System.Drawing.Point(369, 59);
             this.lblTextoC.Name = "lblTextoC";
             this.lblTextoC.Size = new System.Drawing.Size(44, 13);
             this.lblTextoC.TabIndex = 7;
@@ -99,7 +99,7 @@
             // 
             // txtTextoB
             // 
-            this.txtTextoB.Location = new System.Drawing.Point(93, 74);
+            this.txtTextoB.Location = new System.Drawing.Point(76, 56);
             this.txtTextoB.Name = "txtTextoB";
             this.txtTextoB.Size = new System.Drawing.Size(100, 20);
             this.txtTextoB.TabIndex = 3;
@@ -107,7 +107,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(199, 43);
+            this.btnBuscar.Location = new System.Drawing.Point(182, 25);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 1;
@@ -117,7 +117,7 @@
             // 
             // txtBuscar
             // 
-            this.txtBuscar.Location = new System.Drawing.Point(280, 45);
+            this.txtBuscar.Location = new System.Drawing.Point(263, 27);
             this.txtBuscar.MaxLength = 1;
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(27, 20);
@@ -128,7 +128,7 @@
             // dtpFecha
             // 
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(93, 177);
+            this.dtpFecha.Location = new System.Drawing.Point(76, 159);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(100, 20);
             this.dtpFecha.TabIndex = 9;
@@ -137,7 +137,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(90, 201);
+            this.lblFecha.Location = new System.Drawing.Point(73, 183);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(37, 13);
             this.lblFecha.TabIndex = 14;
@@ -146,7 +146,7 @@
             // lblHora
             // 
             this.lblHora.AutoSize = true;
-            this.lblHora.Location = new System.Drawing.Point(90, 215);
+            this.lblHora.Location = new System.Drawing.Point(73, 197);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(30, 13);
             this.lblHora.TabIndex = 15;
@@ -154,7 +154,7 @@
             // 
             // btnReemplazar
             // 
-            this.btnReemplazar.Location = new System.Drawing.Point(199, 101);
+            this.btnReemplazar.Location = new System.Drawing.Point(182, 83);
             this.btnReemplazar.Name = "btnReemplazar";
             this.btnReemplazar.Size = new System.Drawing.Size(75, 23);
             this.btnReemplazar.TabIndex = 8;
@@ -164,7 +164,7 @@
             // 
             // txtTextoC
             // 
-            this.txtTextoC.Location = new System.Drawing.Point(280, 74);
+            this.txtTextoC.Location = new System.Drawing.Point(263, 56);
             this.txtTextoC.Name = "txtTextoC";
             this.txtTextoC.Size = new System.Drawing.Size(100, 20);
             this.txtTextoC.TabIndex = 4;
@@ -172,7 +172,7 @@
             // 
             // txtTextoD
             // 
-            this.txtTextoD.Location = new System.Drawing.Point(93, 103);
+            this.txtTextoD.Location = new System.Drawing.Point(76, 85);
             this.txtTextoD.Name = "txtTextoD";
             this.txtTextoD.Size = new System.Drawing.Size(100, 20);
             this.txtTextoD.TabIndex = 6;
@@ -181,7 +181,7 @@
             // lblTextoD
             // 
             this.lblTextoD.AutoSize = true;
-            this.lblTextoD.Location = new System.Drawing.Point(43, 106);
+            this.lblTextoD.Location = new System.Drawing.Point(26, 88);
             this.lblTextoD.Name = "lblTextoD";
             this.lblTextoD.Size = new System.Drawing.Size(45, 13);
             this.lblTextoD.TabIndex = 19;
@@ -189,7 +189,7 @@
             // 
             // txtTextoE
             // 
-            this.txtTextoE.Location = new System.Drawing.Point(280, 103);
+            this.txtTextoE.Location = new System.Drawing.Point(263, 85);
             this.txtTextoE.Name = "txtTextoE";
             this.txtTextoE.Size = new System.Drawing.Size(100, 20);
             this.txtTextoE.TabIndex = 7;
@@ -198,7 +198,7 @@
             // lblTextoE
             // 
             this.lblTextoE.AutoSize = true;
-            this.lblTextoE.Location = new System.Drawing.Point(386, 106);
+            this.lblTextoE.Location = new System.Drawing.Point(369, 88);
             this.lblTextoE.Name = "lblTextoE";
             this.lblTextoE.Size = new System.Drawing.Size(44, 13);
             this.lblTextoE.TabIndex = 21;
@@ -206,7 +206,7 @@
             // 
             // txtIndice
             // 
-            this.txtIndice.Location = new System.Drawing.Point(280, 132);
+            this.txtIndice.Location = new System.Drawing.Point(263, 114);
             this.txtIndice.MaxLength = 1;
             this.txtIndice.Name = "txtIndice";
             this.txtIndice.Size = new System.Drawing.Size(27, 20);
@@ -214,7 +214,7 @@
             // 
             // btnIndice
             // 
-            this.btnIndice.Location = new System.Drawing.Point(199, 130);
+            this.btnIndice.Location = new System.Drawing.Point(182, 112);
             this.btnIndice.Name = "btnIndice";
             this.btnIndice.Size = new System.Drawing.Size(75, 23);
             this.btnIndice.TabIndex = 23;
@@ -225,7 +225,7 @@
             // lblTextoF
             // 
             this.lblTextoF.AutoSize = true;
-            this.lblTextoF.Location = new System.Drawing.Point(43, 135);
+            this.lblTextoF.Location = new System.Drawing.Point(26, 117);
             this.lblTextoF.Name = "lblTextoF";
             this.lblTextoF.Size = new System.Drawing.Size(43, 13);
             this.lblTextoF.TabIndex = 24;
@@ -233,7 +233,7 @@
             // 
             // txtTextoF
             // 
-            this.txtTextoF.Location = new System.Drawing.Point(93, 132);
+            this.txtTextoF.Location = new System.Drawing.Point(76, 114);
             this.txtTextoF.Name = "txtTextoF";
             this.txtTextoF.Size = new System.Drawing.Size(100, 20);
             this.txtTextoF.TabIndex = 22;
@@ -243,7 +243,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 243);
+            this.ClientSize = new System.Drawing.Size(426, 225);
             this.Controls.Add(this.txtIndice);
             this.Controls.Add(this.btnIndice);
             this.Controls.Add(this.lblTextoF);
